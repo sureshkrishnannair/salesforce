@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.sfc.dev.tests.LoginPageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="Setup"/>
+          <include name="loginpageTitleTest"/>
+        </methods>
+      </class> <!-- com.sfc.dev.tests.LoginPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
