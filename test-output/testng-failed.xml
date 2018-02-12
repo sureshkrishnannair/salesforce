@@ -7,7 +7,7 @@
         <methods>
           <include name="teardown"/>
           <include name="Setup"/>
-          <include name="loginpageTitleTest"/>
+          <include name="loginpageLoginTest"/>
         </methods>
       </class> <!-- com.sfc.dev.tests.LoginPageTest -->
     </classes>

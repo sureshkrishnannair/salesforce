@@ -1,21 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="12849" started-at="2018-02-04T17:42:41Z" finished-at="2018-02-04T17:42:54Z">
+  <suite name="Suite" duration-ms="22253" started-at="2018-02-12T00:19:48Z" finished-at="2018-02-12T00:20:10Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="12849" started-at="2018-02-04T17:42:41Z" finished-at="2018-02-04T17:42:54Z">
+    <test name="Test" duration-ms="22253" started-at="2018-02-12T00:19:48Z" finished-at="2018-02-12T00:20:10Z">
       <class name="com.sfc.dev.tests.LoginPageTest">
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.sfc.dev.tests.LoginPageTest@4b9e13df]" name="Setup" is-config="true" duration-ms="12758" started-at="2018-02-04T12:42:41Z" finished-at="2018-02-04T12:42:54Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.sfc.dev.tests.LoginPageTest@2b98378d]" name="Setup" is-config="true" duration-ms="8054" started-at="2018-02-11T19:19:48Z" finished-at="2018-02-11T19:19:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="loginpageTitleTest()[pri:0, instance:com.sfc.dev.tests.LoginPageTest@4b9e13df]" name="loginpageTitleTest" duration-ms="58" started-at="2018-02-04T12:42:54Z" finished-at="2018-02-04T12:42:54Z">
+        <test-method status="PASS" signature="loginpageTitleTest()[pri:0, instance:com.sfc.dev.tests.LoginPageTest@2b98378d]" name="loginpageTitleTest" duration-ms="151" started-at="2018-02-11T19:19:56Z" finished-at="2018-02-11T19:19:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginpageTitleTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.sfc.dev.tests.LoginPageTest@4b9e13df]" name="teardown" is-config="true" duration-ms="1" started-at="2018-02-04T12:42:54Z" finished-at="2018-02-04T12:42:54Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.sfc.dev.tests.LoginPageTest@2b98378d]" name="teardown" is-config="true" duration-ms="1024" started-at="2018-02-11T19:19:56Z" finished-at="2018-02-11T19:19:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.sfc.dev.tests.LoginPageTest@2b98378d]" name="Setup" is-config="true" duration-ms="7592" started-at="2018-02-11T19:19:57Z" finished-at="2018-02-11T19:20:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="loginpageLoginTest()[pri:0, instance:com.sfc.dev.tests.LoginPageTest@2b98378d]" name="loginpageLoginTest" duration-ms="4396" started-at="2018-02-11T19:20:05Z" finished-at="2018-02-11T19:20:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpageLoginTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.sfc.dev.tests.LoginPageTest@2b98378d]" name="teardown" is-config="true" duration-ms="995" started-at="2018-02-11T19:20:09Z" finished-at="2018-02-11T19:20:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
